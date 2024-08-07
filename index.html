@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>複合モジュール | ドロップダウン</title>
+
+
+        <!-- favicon/webclipicon -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="webclip.png" />
+
+        <!-- FontAwesome -->
+        <link href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" rel="stylesheet">
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- js -->
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+        <div class="dropdownmenu l-container">
+            <div class="account-wrapper">
+                <button class="c-icon account-button js-button">Account name</button>
+
+                <nav class="menu js-menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a class="c-icon menu--icon-setting" href="https://www.google.com/" target="_blank" rel="noopener noreferrer">アカウント設定</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="c-icon menu--icon-credit" href="https://www.google.com/" target="_blank" rel="noopener noreferrer">カード情報</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="c-icon menu--icon-history" href="https://www.google.com/" target="_blank" rel="noopener noreferrer">購入履歴</a>
+                        </li>
+                        <li class="menu-item">
+                            <button class="c-icon menu--icon-logout">ログアウト</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="card-container l-container">
+            <a class="card card-link" href="#">
+                <div class="card-img-wrapper">
+                    <img class="card-img" width="960" height="640" srcset="img/macaron@1x.jpg 480w, img/macaron@2x.jpg 960w" sizes="(max-width: 580px) 90vw, (max-width: 1200px) 50vw, 320px" src="img/macaron@2x.jpg" alt="マカロンの写真" decoding="async" loading="lazy" />
+                </div>
+                <div class="card-body">
+                    <div class="card--product-content">
+                        <h2 class="card-title">マカロン詰め合わせ</h2>
+                        <p class="card-price">¥1,200</p>
+                    </div>
+                    <p class="card-text">ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る</p>
+                </div>
+            </a>
+            <a class="card card-link" href="#">
+                <div class="card-img-wrapper">
+                    <img class="card-img" width="960" height="640" srcset="img/macaron@1x.jpg 480w, img/macaron@2x.jpg 960w" sizes="(max-width: 580px) 90vw, (max-width: 1200px) 50vw, 320px" src="img/macaron@2x.jpg" alt="マカロンの写真" decoding="async" loading="lazy" />
+                </div>
+                <div class="card-body">
+                    <div class="card--product-content">
+                            <h2 class="card-title">マカロン詰め合わせ</h2>
+                            <p class="card-price">¥1,200</p>
+                        </div>
+                        <p class="card-text">ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る</p>
+                    </div>
+                </a>
+                <a class="card card-link" href="#">
+                    <div class="card-img-wrapper">
+                        <img class="card-img" width="960" height="640" srcset="img/macaron@1x.jpg 480w, img/macaron@2x.jpg 960w" sizes="(max-width: 580px) 90vw, (max-width: 1200px) 50vw, 320px" src="img/macaron@2x.jpg" alt="マカロンの写真" decoding="async" loading="lazy" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card--product-content">
+                            <h2 class="card-title">マカロン詰め合わせ</h2>
+                            <p class="card-price">¥1,200</p>
+                        </div>
+                        <p class="card-text">ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る ここに商品の説明が入る</p>
+                    </div>
+                </a>
+        </div>
+    </body>
+</html>
